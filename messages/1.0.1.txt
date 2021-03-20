@@ -1,0 +1,5 @@
+Version 1.0.1
+
+This version is slightly lighter than the version 1.0.0
+
+Please restart Sublime Text.

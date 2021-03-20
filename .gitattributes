@@ -1,0 +1,11 @@
+## Ignore docs assets and test/utility scripts
+assets/ export-ignore
+tests/ export-ignore
+
+## Ignore git files
+*.git export-ignore
+*.gitignore export-ignore
+*.gitattributes export-ignore
+
+## Ignore Makefile
+Makefile export-ignore

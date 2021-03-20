@@ -148,6 +148,10 @@ Github Issues/pull requests are welcome!
 
 ## Release Notes
 
+### 1.0.1
+
+Slightly lighter package
+
 ### 1.0.0
 
 Initial release
