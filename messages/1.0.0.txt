@@ -1,0 +1,6 @@
+Version 1.0.0
+
+The first version of the Syntax Highlighting Package for the
+ Berkeley Logic Interchange Format has been released!
+
+Please restart Sublime Text.

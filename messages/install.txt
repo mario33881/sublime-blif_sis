@@ -1,0 +1,12 @@
+Welcome to the blif_sis package for Sublime Text!
+
+This package highlights the most important keywords in .blif files and
+provides basic template snippets and autocompletions.
+
+Feel free to make a pull request to the repository on GitHub or create an issue
+on GitHub Issues if you wish to add/suggest features/report bugs.
+
+Repository: https://github.com/mario33881/sublime-blif_sis
+Issues: https://github.com/mario33881/sublime-blif_sis/issues
+
+Thanks!

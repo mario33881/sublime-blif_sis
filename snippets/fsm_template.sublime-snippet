@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+.model ${1:name}
+.inputs ${2:in}
+.outputs ${3:out}
+
+# -- FSM Description -- #
+.start_kiss
+
+.i ${4:inputs_number}     # Number of inputs
+.o ${5:outputs_number}    # Number of outputs
+.s ${6:states_number}     # Number of states
+.p ${7:transition_number} # Number of state transitions
+.r ${8:reset_state_name}  # Name of the reset state
+
+# Transition table
+# > format: inputs current_state new_state outputs
+# > Example:
+# > 01 A B 11 # 01 are two inputs, A is the current state, B is the next state, 11 are two outputs
+$0
+.end_kiss
+
+# -- State encoding -- #
+# Place manually state encoding here (.code)
+# > Execute command ```state_assign jedi``` to automatically encode states
+
+.end
+]]></content>
+    <tabTrigger>sis_fsm</tabTrigger>
+    <scope>source.blif</scope>
+    <description>FSM template.</description>
+</snippet>

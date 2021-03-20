@@ -1,0 +1,64 @@
+%YAML 1.2
+---
+name: BLIF
+file_extensions: [blif]
+scope: source.blif
+
+contexts:
+  main:
+    - match: ^\.model\b
+      scope: keyword.control.blif
+
+    - match: ^\.inputs\b
+      scope: keyword.control.blif
+
+    - match: ^\.outputs\b
+      scope: keyword.control.blif
+
+    - match: ^\.subckt\b
+      scope: keyword.control.blif
+
+    - match: ^\.search\b
+      scope: keyword.control.blif
+
+    - match: ^\.exdc\b
+      scope: keyword.control.blif
+
+    - match: ^\.names\b
+      scope: keyword.control.blif
+
+    - match: ^\.start_kiss\b
+      scope: keyword.control.blif
+
+    - match: ^\.i\b
+      scope: keyword.control.blif
+
+    - match: ^\.o\b
+      scope: keyword.control.blif
+
+    - match: ^\.s\b
+      scope: keyword.control.blif
+
+    - match: ^\.p\b
+      scope: keyword.control.blif
+
+    - match: ^\.r\b
+      scope: keyword.control.blif
+
+    - match: ^.end_kiss\b
+      scope: keyword.control.blif
+
+    - match: ^\.code\b
+      scope: keyword.control.blif
+
+    - match: ^\.latch\b
+      scope: keyword.control.blif
+
+    - match: ^\.end\b
+      scope: keyword.control.blif
+
+    - match: \#.*$\n?
+      scope: comment.line.hashmark.blif
+
+    - match: \s(\S+)=(\S+)
+      scope: variable.parameter
