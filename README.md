@@ -100,7 +100,7 @@ Keyword autocompletion allows you to **write keywords efficiently by completing 
 use the arrow keys to navigate the options and press enter on the desired autocompletion.
 
     <div style="text-align: center; margin: 25px 0px;">
-        <img style="border: 1px solid white" alt="Autocompletion, .model confirmed" src="https://github.com/mario33881/sublime-blif_sis/blob/main/assets/autocompletion/model_confirmed.png?raw=true">
+        <img style="border: 1px solid white" alt="Autocompletion, .model confirmed" src="https://github.com/mario33881/sublime-blif_sis/blob/main/assets/autocompletion/model_confirmed.gif?raw=true">
     </div>
 
 * If default values follow the keyword, start typing to replace the first value and then use the tab key to move to the next default value (if available). 
