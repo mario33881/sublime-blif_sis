@@ -158,14 +158,14 @@
       <key>comments</key>
       <dict>
         <key>name</key>
-        <string>comment.line</string>
+        <string>comment.line.blif</string>
         <key>match</key>
         <string>#.*</string>
       </dict>
       <key>subckt_parameters</key>
       <dict>
         <key>name</key>
-        <string>variable.parameter</string>
+        <string>variable.parameter.blif</string>
         <key>match</key>
         <string>\s(\S+)=(\S+)</string>
       </dict>

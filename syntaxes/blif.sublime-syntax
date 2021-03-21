@@ -61,4 +61,4 @@ contexts:
       scope: comment.line.hashmark.blif
 
     - match: \s(\S+)=(\S+)
-      scope: variable.parameter
+      scope: variable.parameter.blif

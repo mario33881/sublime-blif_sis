@@ -148,6 +148,9 @@ Github Issues/pull requests are welcome!
 
 ## Release Notes
 
+### 1.0.2
+Fix: some syntax props didn't end with ".blif"
+
 ### 1.0.1
 
 Slightly lighter package
