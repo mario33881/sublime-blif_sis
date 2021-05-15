@@ -1,5 +1,8 @@
 # Changelog
 
+### 2020-05-15 1.0.3
+Added ```Comments.tmPreferences``` file
+
 ### 2020-03-21 1.0.2
 Fix: some syntax props didn't end with ".blif"
 

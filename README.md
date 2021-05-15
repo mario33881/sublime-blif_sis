@@ -148,6 +148,9 @@ Github Issues/pull requests are welcome!
 
 ## Release Notes
 
+### 1.0.3
+Added ```Comments.tmPreferences``` file
+
 ### 1.0.2
 Fix: some syntax props didn't end with ".blif"
 

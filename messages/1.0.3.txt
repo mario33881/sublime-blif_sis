@@ -1,0 +1,5 @@
+Version 1.0.3
+
+Added Comments.tmPreferences file to syntax highlight comments
+
+Please restart Sublime Text.
